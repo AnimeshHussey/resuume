@@ -1,0 +1,25 @@
+@import "~antd/dist/antd.css";
+$background-color: #282c34;
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.header {
+  position: fixed;
+  height: 10vh;
+  width: 100%;
+  background-color: $background-color;
+}
+
+.container {
+  height: 80vh;
+  width: 100%;
+}
+
+.footer {
+  height: 5vh;
+  width: 100%;
+}

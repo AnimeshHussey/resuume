@@ -1,0 +1,76 @@
+span {
+  color: #ffffff;
+  font-family: roboto-regular;
+}
+
+.app-header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+}
+
+.app-title {
+  color: #ffffff;
+  font-size: 3rem;
+  font-family: roboto-regular;
+  margin-left: 20px;
+}
+
+.app-logo {
+  height: 67px;
+  margin-top: 6px;
+  margin-left: 16px;
+}
+
+.logo-title {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  margin-left: 10px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 2;
+}
+
+.navigation > * {
+  font-size: 2rem;
+  margin-left: 35px;
+}
+.navigation > *:hover {
+  color: hsl(177, 96%, 78%);
+  cursor: pointer;
+}
+
+.print-download {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex: 1 1;
+  margin-top: 4px;
+  margin-right: 16px;
+}
+
+.print-download > * {
+  object-fit: cover;
+  height: 58px;
+  min-height: 50px;
+  width: 21%;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.print-icon {
+  color: hsl(177, 96%, 78%);
+  font-size: 3em;
+}
+
+.download-icon {
+  color: hsl(145, 89%, 63%);
+  font-size: 3em;
+}

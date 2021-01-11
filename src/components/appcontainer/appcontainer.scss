@@ -1,0 +1,39 @@
+.app-container-body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 80vh;
+  background-color: #cfd3db;
+}
+.div-profile {
+  display: flex;
+  background: #2d3340;
+  border-radius: 0.3rem;
+  width: 67vw;
+  margin-left: 10px;
+  height: 82vh;
+  margin-top: 100px;
+}
+
+.div-profile:hover {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.technology {
+  display: flex;
+  background: #2d3340;
+  border-radius: 0.3rem;
+  width: 30vw;
+  height: 80vh;
+  margin-top: 100px;
+}
+
+.technology:hover {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
