@@ -4,12 +4,11 @@ import Logo from "./logo";
 import Title from "./title";
 import Navigation from "./navigation";
 import Print_Download from "./print-download";
-import { InfoCircleOutlined, MailOutlined } from "@ant-design/icons";
 
 const AppHeader = () => {
   const navigationOptions = [
-    { name: "About", isActive: true, component: InfoCircleOutlined },
-    { name: "Contact", isActive: false, component: MailOutlined },
+    { name: "About", isActive: true},
+    { name: "Contact", isActive: false },
   ];
   const [navigations] = useState(navigationOptions);
   return (
